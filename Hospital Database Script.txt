@@ -8,6 +8,7 @@
 # Not Final Draft Of Script
 # How to Establish Super/Sub Data (Still Remain)
 # Runs Just Copy All And Run on MySQL
+use hospital;
 
 DROP TABLE IF EXISTS DOCTOR_PATIENT;
 DROP TABLE IF EXISTS TESTS;
@@ -240,4 +241,3 @@ INSERT INTO Doctor_Patient VALUES ('12365', '193258', '2019-11-02');
 INSERT INTO Doctor_Patient VALUES ('15642', '589215', '2019-09-02');
 INSERT INTO Doctor_Patient VALUES ('15235', '975913', '2019-02-16');
 INSERT INTO Doctor_Patient VALUES ('51235', '497598', '2019-02-22');
-
